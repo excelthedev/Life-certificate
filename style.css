@@ -8,10 +8,13 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background-color: rgba(255, 245, 212, 0.871);
+}
+
 .main-section {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 2.3rem 0;
 }
 
 .container {
@@ -19,7 +22,7 @@ html {
   margin: 0 auto;
   border: 5px solid black;
   padding: 5.5rem;
-  background-color: #fff5d4;
+  background-color: rgba(255, 245, 212, 0.877);
 }
 
 .header {
