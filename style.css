@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-section {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2.3rem 0;
+}
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+  border: 5px solid black;
+  padding: 5.5rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.header-text {
+  font-size: 7rem;
+  font-family: "Old English Text MT";
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header-img {
+  height: 20rem;
+  width: 20rem;
+}
+
+.header-subtext {
+  font-size: 5rem;
+  margin-bottom: 5rem;
+  font-family: "Edwardian Script ITC";
+}
+
+.main-writing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.border-top {
+  border-top: 4px solid black;
+  width: 100%;
+  font-size: 3.56rem;
+  font-family: "Brush Script MT";
+}
+
+.touch {
+  margin-bottom: 1rem;
+}
+
+.inline-text {
+  display: block;
+  text-align: center;
+}
+
+.bachelor {
+  font-size: 10rem;
+  margin-top: 2rem;
+  font-family: "Old English Text MT";
+}
+
+.in {
+  font-size: 7rem;
+  margin-bottom: 2rem;
+  font-family: "Brush Script MT";
+  font-weight: 500;
+  line-height: 2;
+}
+
+.grid {
+  display: grid;
+  row-gap: 4rem;
+  grid-template-rows: 1fr, 1fr;
+  font-size: 3rem;
+  font-family: "Brush Script MT";
+  font-weight: 500;
+}
+
+.full {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inner-line {
+  width: 100%;
+  border-top: 4px solid black;
+  display: inline-block;
+  align-self: end;
+}
+
+.in-line {
+  width: 30%;
+  border-bottom: 4px solid black;
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+
+.gh {
+  margin-left: -2rem;
+}
+
+.full-this {
+  display: flex;
+  align-items: end;
+  flex-direction: end;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.registrar {
+  font-size: 3.5rem;
+  border-top: 4px solid black;
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  padding-top: 1rem;
+  font-family: "Brush Script MT";
+  font-weight: 550;
+  letter-spacing: -1.2px;
+}
+
+/* === redo======== */
+.G1 {
+  display: inline-block;
+  transform: translate(50px, 95px) rotate(-30deg);
+  font-size: 6rem;
+  letter-spacing: 10px;
+}
+
+/* ===== THEOLOGY ========== */
+.t3 {
+  display: inline-block;
+  transform: translate(80px, 10px) rotate(-13deg);
+  text-align: center;
+}
+
+.h {
+  display: inline-block;
+  transform: translate(80px, -4px) rotate(-10deg);
+  text-align: center;
+}
+
+.e {
+  display: inline-block;
+  transform: translate(80px, -10px) rotate(-12deg);
+  text-align: center;
+}
+
+.o {
+  display: inline-block;
+  transform: translate(80px, -15px) rotate(-1deg);
+  text-align: center;
+}
+
+.lo {
+  display: inline-block;
+  transform: translate(80px, -14px) rotate(-3deg);
+  text-align: center;
+}
+
+.oo {
+  display: inline-block;
+  transform: translate(80px, -15px) rotate(0deg);
+  text-align: center;
+}
+
+.g {
+  display: inline-block;
+  transform: translate(80px, -15px) rotate(0deg);
+  text-align: center;
+}
+
+.i {
+  display: inline-block;
+  transform: translate(80px, -11px) rotate(5deg);
+  text-align: center;
+}
+
+.c {
+  display: inline-block;
+  transform: translate(80px, -6px) rotate(10deg);
+  text-align: center;
+}
+
+.a {
+  display: inline-block;
+  transform: translate(80px, 0px) rotate(10deg);
+  text-align: center;
+}
+
+.l {
+  display: inline-block;
+  transform: translate(80px, 11px) rotate(10deg);
+  text-align: center;
+}
+
+/* ===== END ============ */
+
+.s9 {
+  display: inline-block;
+  transform: translate(100px, 110px) rotate(32deg);
+}
+
+.inner-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 5px;
+  transform: translate(-10px, 0) rotate(2deg);
+}
